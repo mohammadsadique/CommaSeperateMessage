@@ -35,4 +35,8 @@ $allLoadNumber = CommaSeperateMessage($loadNumberArray);
         }
         return $allLoadNumber;
     }
-    ```
+
+$load_number_notexist = [1234,098765,7890,,,98,678,87,];
+$loadNumberArray = explode(',', $load_number_notexist);
+$allLoadNumber = CommaSeperateMessage($loadNumberArray);
+```
